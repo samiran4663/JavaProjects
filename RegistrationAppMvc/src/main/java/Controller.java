@@ -24,7 +24,7 @@ public class Controller extends HttpServlet {
 		model.setEmail(email);
 		model.setPassword(upassword);
 		model.setGender(gender);
-		model.setPassword(country);
+		model.setCountry(country);
 		int rows=model.register();
 		
 		request.setAttribute("rowsaffected", rows);
